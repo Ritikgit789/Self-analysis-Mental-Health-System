@@ -29,6 +29,8 @@ Model Training: Four machine learning algorithms were employed to train the Ment
 1. Random Forest (Best Model): The Random Forest classifier was the top performer in terms of accuracy and overall performance. It uses an ensemble of decision trees to improve prediction accuracy and control over-fitting.
 ROC-AUC for the Best Model: The ROC-AUC (Receiver Operating Characteristic - Area Under Curve) metric provides an aggregate measure of performance across all classification thresholds. For the Random Forest model, the ROC-AUC score was 0.79 indicating its superior capability to distinguish between the different severity levels.
 
+### ROC-AUC
+![Roc Auc](Images/Frontend.png)  
 
 Confusion Matrix for the Best Model: The confusion matrix for the Random Forest model provides a detailed breakdown of the model's predictions compared to the actual classifications. It shows the True Positives, True Negatives, False Positives, and False Negatives, allowing us to understand the model's accuracy in predicting each category.
 
