@@ -30,7 +30,7 @@ Model Training: Four machine learning algorithms were employed to train the Ment
 ROC-AUC for the Best Model: The ROC-AUC (Receiver Operating Characteristic - Area Under Curve) metric provides an aggregate measure of performance across all classification thresholds. For the Random Forest model, the ROC-AUC score was 0.79 indicating its superior capability to distinguish between the different severity levels.
 
 ### ROC-AUC
-![Roc Auc](Images/ROC RF.png)  
+![Roc Auc](Images/ROCRF.png)  
 
 Confusion Matrix for the Best Model: The confusion matrix for the Random Forest model provides a detailed breakdown of the model's predictions compared to the actual classifications. It shows the True Positives, True Negatives, False Positives, and False Negatives, allowing us to understand the model's accuracy in predicting each category.
 
@@ -40,7 +40,7 @@ SHAP Implementation:
 To interpret the model's decisions, I utilized SHAP (Shapley Additive explanations) to understand the contribution of each feature to the model's predictions. SHAP analysis revealed that features such as Family history, Age, work culture and Social Support played a crucial role in determining mental health outcomes. By visualizing these SHAP values, I gained valuable insights into the factors influencing mental health, enabling the identification of key areas for intervention and providing transparency in the model’s decision-making process.
 So, for our best performed model “Random Forest” with an accuracy of 77% & f1 of 78% has SHAP:
 
-![SHAP](Images/SHAP-RF.png)
+![SHAP](Images/SHAPRF.png)
 
 How to run the inference script
 The inference script is designed to load the trained model, process user-provided inputs, and predict the mental health severity level (Mild, Moderate, Severe). The script ensures that predictions are made accurately using the Random Forest model (‘mental_health_model.pkl’), which was found to be the most effective model during evaluation. The user needs to input features such as age, gender, history of mental health issues, work environment factors, and access to mental health resources.
@@ -71,7 +71,7 @@ AI Response: "Managing stress at work involves mindfulness exercises, setting bo
 Breakdown of the work:
 
 
-![Architecture](Images/Project(Arogoai.drawio).png)
+![Architecture](Images/Breakdown.png)
 
 
 Drawbacks and Edge Cases:
