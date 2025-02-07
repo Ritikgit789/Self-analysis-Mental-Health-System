@@ -11,6 +11,14 @@ Technologies used:
 5.	Matplotlib and Seaborn
 
 
+Breakdown of the work:
+
+
+![Architecture](Images/Breakdown.png)
+
+
+
+
 Dataset and Preprocessing Steps
 Dataset Used
 We utilized the Mental Health in Tech Survey dataset, which comprises responses from individuals working in tech companies. This dataset includes various features related to the work environment, mental health history, age, and accessibility to treatment.
@@ -68,10 +76,6 @@ AI Response: "Managing stress at work involves mindfulness exercises, setting bo
 
 ![Chatbot](Images/Chatbotresponse.png)
 
-Breakdown of the work:
-
-
-![Architecture](Images/Breakdown.png)
 
 
 Drawbacks and Edge Cases:
