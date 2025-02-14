@@ -86,7 +86,7 @@ The chatbot cannot replace professional mental health advice and might provide g
 
 
 
-
+This is the project assignment given for an AI/ML engineer intern by Arogo AI, an early-scale startup.
 
 
 
