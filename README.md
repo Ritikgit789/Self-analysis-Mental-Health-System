@@ -63,7 +63,7 @@ UI/CLI usage instructions
 Web App
 The web app features mental health severity prediction using the Logistic Regression model, and an AI chatbot powered by Gemini 1.5 Flash. Users can input their symptoms in the sidebar, and the model predicts their mental health severity (Mild, Moderate, Severe). The AI chatbot provides explanations and coping strategies based on the results.
 
-![Web app](Images/Frontend(1).png)
+![Web app](Images/Frontend_Predict.png)
 
 LLM Experimentation --- AI Chatbot (Gemini 1.5 Flash)
 The AI chatbot, integrated into the mental health severity prediction web app, utilizes Gemini 1.5 Flash to provide contextual explanations and coping strategies based on user queries. It enhances the prediction system by offering natural language responses tailored to the predicted severity level (Mild, Moderate, Severe).
