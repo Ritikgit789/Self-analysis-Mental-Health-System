@@ -1,4 +1,4 @@
-# Self-analysis-mental-health-
+# Psycho AI - Self-analysis-mental-health
 
 Mental health disorders impact millions globally, and early identification of symptoms is crucial in seeking appropriate support. This project focuses on developing an AI-driven Mental Health Severity Prediction System that classifies users into three categories: Mild, Moderate, and Severe.
 System Overview: The core of the system is a machine learning model that evaluates users' mental health based on their inputs. Additionally, it incorporates a mental health chatbot, powered by Google Gemini, to provide users with explanations and coping mechanisms, ensuring a supportive and educational interaction.
