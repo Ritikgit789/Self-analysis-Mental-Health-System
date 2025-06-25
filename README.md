@@ -84,7 +84,10 @@ If the dataset is imbalanced (e.g., more "Mild" cases than "Severe"), the model 
 2.
 The chatbot cannot replace professional mental health advice and might provide generalized or non-contextual responses for severe cases. If a user asks "I feel extremely depressed, what should I do?", the chatbot might not detect urgency and respond with generic coping strategies instead of urging them to seek immediate help.
 
-
+Future updates:
+- Integrate with React, Vite and Tailwind CSS to make a scalable and balanced website
+- Backend with FastAPI - API endpoints for Assistant and Predictor
+- Tools used: Postman, FastAPI, React.
 
 This is the project assignment given for an AI/ML engineer intern by Arogo AI, an early-scale startup.
 
